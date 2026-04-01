@@ -51,6 +51,7 @@ jobs:
         run: npm run tests:headless
 
 
+        
       # Upload Playwright HTML report
       - name: Upload playwright HTML report
         if: always() # Ensure this step runs even if the tests fail
