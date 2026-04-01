@@ -9,6 +9,8 @@ test("verify links under ul tag are displayed and enabled", async ({
 
   // Step 3: Check the title
   await expect(page).toHaveTitle("Practice");
+    await expect(page).toHaveTitle("Practice");
+
 
   // Step 4 & 5: Locate all links under the ul and verify count
   const allLinks = page.locator('//ul[@class="list-group"]//a');
