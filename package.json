@@ -2,6 +2,7 @@
   "name": "jenkins-practice",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "tests:headless": "npx playwright test",
     "tests:headed": "npx playwright test --headed",
