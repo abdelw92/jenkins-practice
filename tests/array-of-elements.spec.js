@@ -12,6 +12,7 @@ test.describe("Test Group", () => {
     page,
   }) => {
     expect(elements.length).toBe(50);
+    expect(elements.length).toBe(50);
 
     // expect(elements.length).toBeGreaterThanOrEqual(20);
   });
