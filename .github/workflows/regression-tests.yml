@@ -1,14 +1,14 @@
 name: Regression Test
 
 on:
-  #push:
-   # branches:
-    #  - main
-     # - master
-  #pull_request:
-   # branches: 
-    #  - main
-     # - master
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches: 
+      - main
+      - master
   schedule:
     - cron: '11 16 * * *' # Runs every day at 3pm EST
   workflow_dispatch:
